@@ -10,9 +10,9 @@
 ```c++
 POINT pt = {/* 適当な値が入ってるとする */};
 RECT rc = {
-	pt.x, // left
-	pt.y, // top
-	pt.x, // right
-	pt.y, // bottom
+    pt.x, // left
+    pt.y, // top
+    pt.x, // right
+    pt.y, // bottom
 };
 ```
