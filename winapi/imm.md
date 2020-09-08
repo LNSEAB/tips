@@ -16,3 +16,7 @@ RECT rc = {
     pt.y, // bottom
 };
 ```
+
+## ImmAssociateContextEx
+
+* 例外投げた等でメインループに入る前に終了した後、ImmAssociateContextExを呼び出すとダメっぽい（他のところでSEGVした）。
